@@ -12,4 +12,5 @@ spec:
     ports:
       - containerPort: 5432
     env:
-      - POSTGRES_HOST_AUTH_METHOD: trust # no password required
+      - name: POSTGRES_HOST_AUTH_METHOD # no password required
+        value: trust
