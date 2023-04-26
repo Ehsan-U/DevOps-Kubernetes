@@ -15,8 +15,8 @@ spec:
         image: postgres:9.4
         ports:
           - containerPort: 5432
-      env:
-        - POSTGRES_HOST_AUTH_METHOD: trust # no password required
+        env:
+          - POSTGRES_HOST_AUTH_METHOD: trust # no password required
   replicas: 1
   selector:
     matchLabels:
