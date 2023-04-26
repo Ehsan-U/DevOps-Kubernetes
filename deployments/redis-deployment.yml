@@ -5,7 +5,7 @@ metadata:
 spec:
   template:
     metadata:
-      name: redis-pod
+      name: redis
       labels:
         name: redis-pod
         app: voting-app
