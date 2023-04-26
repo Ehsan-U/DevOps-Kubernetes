@@ -9,7 +9,6 @@ spec:
       port: 80
       nodePort: 30001
   selector:
-    matchLabels:
-      name: vote-app-pod
-      app: voting-app
+    name: vote-app-pod
+    app: voting-app
       

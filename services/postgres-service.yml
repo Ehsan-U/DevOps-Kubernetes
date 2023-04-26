@@ -8,7 +8,6 @@ spec:
     - targetPort: 5432
       port: 5432
   selector:
-    matchLabels:
-      name: postgres-pod
-      app: voting-app
+    name: postgres-pod
+    app: voting-app
       
