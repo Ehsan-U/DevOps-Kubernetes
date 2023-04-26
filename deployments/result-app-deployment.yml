@@ -19,4 +19,4 @@ spec:
   selector: 
     matchLabels:
       name: result-app-pod
-      app: voting-app
+      app: voting-app 

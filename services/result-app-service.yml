@@ -10,5 +10,6 @@ spec:
       nodePort: 30002
   selector:
     matchLabels:
-      app: voting-app
       name: result-app-pod
+      app: voting-app
+      

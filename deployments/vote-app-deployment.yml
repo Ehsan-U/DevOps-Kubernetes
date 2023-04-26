@@ -18,5 +18,5 @@ spec:
   replicas: 3
   selector: 
     matchLabels:
-      app: voting-app
       name: vote-app-pod
+      app: voting-app 

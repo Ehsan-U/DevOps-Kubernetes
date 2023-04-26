@@ -18,5 +18,5 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: voting-app
       name: postgres-pod
+      app: voting-app
